@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="0.00"
+        android:textSize="20sp"/>
+
+
+    <xiaosu.widget.dashboard.DashboardView
+        android:id="@+id/rulerView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:textSize="8sp"
+        app:asInteger="true"
+        app:centerCircleRadius="8dp"
+        app:circleStrokeColor="@android:color/holo_red_dark"
+        app:circleStrokeWidth="2dp"
+        app:longLineColor="@android:color/holo_blue_bright"
+        app:longLineIndex="26"
+        app:longLineLength="10dp"
+        app:longLineWidth="1dp"
+        app:maxNum="300"
+        app:pointerInset="4dp"
+        app:pointerWidth="2dp"
+        app:shortLineLength="5dp"
+        app:shortLineWidth="0.4dp"
+        app:spaceNum="260"
+        app:valueOffset="40"/>
+
+</LinearLayout>
