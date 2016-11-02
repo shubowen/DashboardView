@@ -1,7 +1,7 @@
 # DashboardView
 Android刻度盘控件
 
-![image](https://github.com/shubowen/DashboardView/dashboard.gif)
+![image](https://github.com/shubowen/DashboardView/blob/master/dashboard.gif)
 
 **支持属性**：
     
